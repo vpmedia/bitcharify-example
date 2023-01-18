@@ -18,8 +18,6 @@ function create() {
   const fontData = generateBitmapFont(canvas, fontStyle);
   //
   loadImage(canvas.toDataURL()).then((event) => {
-    // console.log("Image loaded", event.target);
-    // CanvasPool.remove(this);
     addToCachePhaser3(this.game, "Arial_24px", fontData, event.target);
     this.add.bitmapText(10, 370, "Arial_24px", testText, 24);
   });
