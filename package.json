@@ -1,0 +1,42 @@
+{
+  "name": "@vpmedia/bitcharify-example",
+  "version": "1.0.0",
+  "description": "Example for the @vpmedia/bitcharify package",
+  "author": "Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)",
+  "license": "MIT",
+  "homepage": "https://github.com/vpmedia/bitcharify-example#readme",
+  "bugs": {
+    "url": "https://github.com/vpmedia/bitcharify-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpmedia/bitcharify-example.git"
+  },
+  "type": "module",
+  "main": "src/index.html",
+  "scripts": {
+    "asset": "phixify all --config-file ./.phixify.json",
+    "start": "vite --open",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview --open",
+    "lint": "eslint \"**/*.js\"",
+    "format": "prettier --write \"**/*.{js,json}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@vpmedia/phaser": "^1.2.3",
+    "phaser": "^v3.60.0-beta.18"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "vite": "^4.0.4"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  }
+}

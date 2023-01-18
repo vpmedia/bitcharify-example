@@ -1,0 +1,23 @@
+#
+# Copyright (c) Andras Csizmadia <andras@vpmedia.hu> (www.vpmedia.hu)
+# author: Andras Csizmadia <andras@vpmedia.hu>
+# see: https://git-scm.com/docs/gitignore
+#
+
+/dist
+/node_modules
+.DS_Store
+
+# generated assets
+/public/asset/**/audiosprite/
+/public/asset/**/spritesheet/
+/public/asset/**/*.avif
+/public/asset/**/*.webp
+/public/asset/**/*.mp3
+/public/asset/**/*.ogg
+/public/asset/**/spritesheet/*.json
+/public/asset/**/audiosprite/*.json
+/public/asset/**/data/sound.json
+/public/asset/**/*_resource.json
+/public/asset/**/*@0.5x.*
+/public/asset/**/*@1x.*
