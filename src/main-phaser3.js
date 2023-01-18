@@ -15,14 +15,14 @@ function create() {
   document.body.appendChild(canvas);
   //
   const fontStyle = { fontFamily: "Arial", fontSize: 24, fill: "#FFFFFF" };
-  const font = generateBitmapFont(canvas, fontStyle);
+  const fontData = generateBitmapFont(canvas, fontStyle);
   // console.log(font.canvas);
   // console.log(font.data);
   //
-  loadImage(font.canvas.toDataURL()).then((event) => {
+  loadImage(canvas.toDataURL()).then((event) => {
     // console.log("Image loaded", event.target);
     // CanvasPool.remove(this);
-    addToCachePhaser3(this.game, "Arial_24px", font.data, event.target);
+    addToCachePhaser3(this.game, "Arial_24px", fontData, event.target);
     this.add.bitmapText(10, 370, "Arial_24px", testText, 24);
   });
 }
