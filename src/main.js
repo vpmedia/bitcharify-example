@@ -1,8 +1,8 @@
 import "./style.css";
 import { Game, Const, CanvasPool } from "@vpmedia/phaser";
-import { generateBitmapFont } from "./bitcharify/generateBitmapFont";
-import { loadImage } from "./bitcharify/core/loadImage";
-import { addToCache } from "./bitcharify/integration/phaser2/addToCache";
+import { generateBitmapFont } from "@vpmedia/bitcharify";
+import { loadImage } from "@vpmedia/bitcharify";
+import { addToCachePhaser2 } from "@vpmedia/bitcharify";
 
 class GameState {
   create() {
@@ -23,7 +23,7 @@ class GameState {
     loadImage(font.canvas.toDataURL()).then((event) => {
       // console.log("Image loaded", event.target);
       // CanvasPool.remove(this);
-      addToCache(this.game, "Arial_24px", font.data, event.target);
+      addToCachePhaser2(this.game, "Arial_24px", font.data, event.target);
       this.game.add.bitmapText(10, 370, "Arial_24px", testText, 24);
     });
   }
