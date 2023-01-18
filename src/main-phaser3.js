@@ -16,8 +16,6 @@ function create() {
   //
   const fontStyle = { fontFamily: "Arial", fontSize: 24, fill: "#FFFFFF" };
   const fontData = generateBitmapFont(canvas, fontStyle);
-  // console.log(font.canvas);
-  // console.log(font.data);
   //
   loadImage(canvas.toDataURL()).then((event) => {
     // console.log("Image loaded", event.target);
