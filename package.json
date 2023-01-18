@@ -24,7 +24,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.2.0",
+    "@vpmedia/bitcharify": "^1.3.0",
+    "@vpmedia/bitcharify-phaser2": "^1.3.0",
+    "@vpmedia/bitcharify-phaser3": "^1.3.0",
     "@vpmedia/phaser": "^1.2.3",
     "phaser": "^v3.60.0-beta.18"
   },

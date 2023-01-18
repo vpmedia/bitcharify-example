@@ -2,7 +2,7 @@ import "./style.css";
 import { Game, Display } from "phaser";
 import { generateBitmapFont } from "@vpmedia/bitcharify";
 import { loadImage } from "@vpmedia/bitcharify";
-import { addToCachePhaser3 } from "@vpmedia/bitcharify";
+import { addToCache } from "@vpmedia/bitcharify-phaser3";
 
 function create() {
   const testText = "ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz";
@@ -18,7 +18,7 @@ function create() {
   const fontData = generateBitmapFont(canvas, fontStyle);
   //
   loadImage(canvas.toDataURL()).then((event) => {
-    addToCachePhaser3(this.game, "Arial_24px", fontData, event.target);
+    addToCache(this.game, "Arial_24px", fontData, event.target);
     this.add.bitmapText(10, 370, "Arial_24px", testText, 24);
   });
 }

@@ -2,7 +2,7 @@ import "./style.css";
 import { Game, Const, CanvasPool } from "@vpmedia/phaser";
 import { generateBitmapFonts } from "@vpmedia/bitcharify";
 import { loadImage } from "@vpmedia/bitcharify";
-import { addToCachePhaser2 } from "@vpmedia/bitcharify";
+import { addToCache } from "@vpmedia/bitcharify-phaser2";
 
 class GameState {
   create() {
@@ -19,7 +19,7 @@ class GameState {
     const results = generateBitmapFonts(canvas, styles);
     results.forEach((result) => {
       loadImage(result.imageData).then((event) => {
-        addToCachePhaser2(this.game, "Arial_24px", result.fontData, event.target);
+        addToCache(this.game, "Arial_24px", result.fontData, event.target);
         this.game.add.bitmapText(10, 370, "Arial_24px", testText, 24);
       });
     });
