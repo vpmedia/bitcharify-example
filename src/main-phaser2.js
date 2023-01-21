@@ -1,5 +1,5 @@
 import "./style.css";
-import { Game, Const, CanvasPool } from "@vpmedia/phaser";
+import { Game, Const } from "@vpmedia/phaser";
 import { generateBitmapFonts } from "@vpmedia/bitcharify";
 import { loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser2";
@@ -10,7 +10,7 @@ class GameState {
     const textStyle = { font: "Arial", fontSize: 24, fill: "#FFFFFF" };
     this.game.add.text(10, 400, testText, textStyle);
     //
-    const canvas = CanvasPool.create(this);
+    const canvas = document.createElement("canvas");
     canvas.style.position = "absolute";
     canvas.style.display = "block";
     document.body.appendChild(canvas);
@@ -21,6 +21,8 @@ class GameState {
       loadImage(result.imageData).then((event) => {
         addToCache(this.game, "Arial_24px", result.fontData, event.target);
         this.game.add.bitmapText(10, 370, "Arial_24px", testText, 24);
+        // canvas.width = 1;
+        // canvas.height = 1;
       });
     });
   }

@@ -1,5 +1,5 @@
 import "./style.css";
-import { Game, Display } from "phaser";
+import { Game } from "phaser";
 import { generateBitmapFont } from "@vpmedia/bitcharify";
 import { loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser3";
@@ -9,7 +9,7 @@ function create() {
   const textStyle = { fontFamily: "Arial", fontSize: 24, fill: "#FFFFFF" };
   this.add.text(10, 400, testText, textStyle);
   //
-  const canvas = Display.Canvas.CanvasPool.create(this);
+  const canvas = document.createElement("canvas");
   canvas.style.position = "absolute";
   canvas.style.display = "block";
   document.body.appendChild(canvas);
@@ -20,6 +20,8 @@ function create() {
   loadImage(canvas.toDataURL()).then((event) => {
     addToCache(this.game, "Arial_24px", fontData, event.target);
     this.add.bitmapText(10, 370, "Arial_24px", testText, 24);
+    // canvas.width = 1;
+    // canvas.height = 1;
   });
 }
 
