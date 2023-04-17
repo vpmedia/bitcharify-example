@@ -1,9 +1,11 @@
 import "./style.css";
 import { Game } from "phaser";
-import { generateBitmapFont } from "@vpmedia/bitcharify";
-import { loadImage } from "@vpmedia/bitcharify";
+import { generateBitmapFont, loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser3";
 
+/**
+ *
+ */
 function create() {
   const testText = "ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz";
   const textStyle = { fontFamily: "Arial", fontSize: 24, fill: "#FFFFFF" };

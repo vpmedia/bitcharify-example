@@ -1,7 +1,6 @@
 import "./style.css";
 import { Game, Const } from "@vpmedia/phaser";
-import { generateBitmapFonts } from "@vpmedia/bitcharify";
-import { loadImage } from "@vpmedia/bitcharify";
+import { generateBitmapFonts, loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser2";
 
 class GameState {
