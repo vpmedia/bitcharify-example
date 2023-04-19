@@ -4,6 +4,7 @@ import { generateBitmapFont, loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser3";
 
 /**
+ * TBD.
  */
 function create() {
   const testText = "ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz";
