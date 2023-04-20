@@ -7,9 +7,10 @@ import { addToCache } from "@vpmedia/bitcharify-phaser3";
  * TBD.
  */
 function create() {
+  const scope = this;
   const testText = "ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz";
   const textStyle = { fontFamily: "Arial", fontSize: 24, fill: "#FFFFFF" };
-  this.add.text(10, 400, testText, textStyle);
+  scope.add.text(10, 400, testText, textStyle);
   //
   const canvas = document.createElement("canvas");
   canvas.style.position = "absolute";
@@ -20,8 +21,8 @@ function create() {
   const fontData = generateBitmapFont(canvas, fontStyle);
   //
   loadImage(canvas.toDataURL()).then((event) => {
-    addToCache(this.game, "Arial_24px", fontData, event.target);
-    this.add.bitmapText(10, 370, "Arial_24px", testText, 24);
+    addToCache(scope.game, "Arial_24px", fontData, event.target);
+    scope.add.bitmapText(10, 370, "Arial_24px", testText, 24);
     // canvas.width = 1;
     // canvas.height = 1;
   });
