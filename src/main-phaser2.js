@@ -4,6 +4,9 @@ import { generateBitmapFonts, loadImage } from "@vpmedia/bitcharify";
 import { addToCache } from "@vpmedia/bitcharify-phaser2";
 
 class GameState {
+  /**
+   * Create game objects.
+   */
   create() {
     const testText = "ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz";
     const textStyle = { font: "Arial", fontSize: 24, fill: "#FFFFFF" };
