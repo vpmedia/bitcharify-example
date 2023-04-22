@@ -5,6 +5,15 @@ import { addToCache } from "@vpmedia/bitcharify-phaser2";
 
 class GameState {
   /**
+   * TBD.
+   */
+  constructor() {
+    /**
+     * @type {Game} - TBD.
+     */
+    this.game = null;
+  }
+  /**
    * Create game objects.
    */
   create() {
