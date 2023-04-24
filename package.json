@@ -29,10 +29,10 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.7.0",
+    "@vpmedia/bitcharify": "^1.8.0",
     "@vpmedia/bitcharify-phaser2": "^1.5.0",
     "@vpmedia/bitcharify-phaser3": "^1.5.0",
-    "@vpmedia/phaser": "^1.18.0",
+    "@vpmedia/phaser": "^1.19.0",
     "phaser": "^3.60.0"
   },
   "devDependencies": {
