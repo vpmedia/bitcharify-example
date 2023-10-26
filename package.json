@@ -23,7 +23,9 @@
     "stylelint": "stylelint \"**/*.css\"",
     "typecheck": "tsc",
     "format": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lefthook:install": "lefthook install",
+    "lefthook:uninstall": "lefthook uninstall"
   },
   "dependencies": {
     "@vpmedia/bitcharify": "^1.10.0",
