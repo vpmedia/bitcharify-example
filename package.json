@@ -28,15 +28,15 @@
     "lefthook:uninstall": "lefthook uninstall"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.10.0",
-    "@vpmedia/bitcharify-phaser2": "^1.5.0",
-    "@vpmedia/bitcharify-phaser3": "^1.5.0",
-    "@vpmedia/phaser": "^1.42.0",
+    "@vpmedia/bitcharify": "^1.11.0",
+    "@vpmedia/bitcharify-phaser2": "^1.6.0",
+    "@vpmedia/bitcharify-phaser3": "^1.6.0",
+    "@vpmedia/phaser": "^1.43.0",
     "phaser": "^3.70.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@types/jest": "^29.5.11",
+    "@types/jest": "^29.5.12",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.3",
