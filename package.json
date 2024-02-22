@@ -32,7 +32,7 @@
     "@vpmedia/bitcharify-phaser2": "^1.6.0",
     "@vpmedia/bitcharify-phaser3": "^1.6.0",
     "@vpmedia/phaser": "^1.43.0",
-    "phaser": "^3.70.0"
+    "phaser": "^3.80.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
