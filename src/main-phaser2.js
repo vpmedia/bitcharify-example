@@ -1,7 +1,7 @@
-import './style.css';
-import { Game, Const } from '@vpmedia/phaser';
 import { generateBitmapFonts, loadImage } from '@vpmedia/bitcharify';
 import { addToCache } from '@vpmedia/bitcharify-phaser2';
+import { Const, Game } from '@vpmedia/phaser';
+import './style.css';
 
 class GameState {
   /**
@@ -28,14 +28,14 @@ class GameState {
     //
     const styles = [{ fontFamily: 'Arial', fontSize: 24, fill: '#FFFFFF' }];
     const results = generateBitmapFonts(canvas, styles);
-    results.forEach((result) => {
+    for (const result of results) {
       loadImage(result.imageData).then((event) => {
         addToCache(this.game, 'Arial_24px', result.fontData, event.target);
         this.game.add.bitmapText(10, 370, 'Arial_24px', testText, 24);
         // canvas.width = 1;
         // canvas.height = 1;
       });
-    });
+    }
   }
 }
 
