@@ -58,6 +58,7 @@ export default [
       'unicorn/no-null': 'warn',
       'unicorn/numeric-separators-style': 'warn',
       'unicorn/prefer-dom-node-append': 'warn',
+      'unicorn/prefer-global-this': 'warn',
       'no-unused-vars': 'off',
       'prefer-arrow-callback': 'warn',
       'prefer-template': 'warn',
