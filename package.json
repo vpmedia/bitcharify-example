@@ -31,7 +31,7 @@
     "@vpmedia/bitcharify": "^1.11.0",
     "@vpmedia/bitcharify-phaser2": "^1.6.0",
     "@vpmedia/bitcharify-phaser3": "^1.6.0",
-    "@vpmedia/phaser": "^1.49.0",
+    "@vpmedia/phaser": "^1.50.0",
     "phaser": "^3.86.0"
   },
   "devDependencies": {
