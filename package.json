@@ -26,10 +26,10 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.13.0",
+    "@vpmedia/bitcharify": "^1.14.0",
     "@vpmedia/bitcharify-phaser2": "^1.7.0",
     "@vpmedia/bitcharify-phaser3": "^1.7.0",
-    "@vpmedia/phaser": "^1.76.0",
+    "@vpmedia/phaser": "^1.77.0",
     "phaser": "^3.88.2"
   },
   "devDependencies": {
