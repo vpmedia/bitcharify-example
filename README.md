@@ -8,8 +8,8 @@ Example for the @vpmedia/bitcharify package.
 
 ### Install the package dependencies
 
-    $ npm install
+    $ pnpm install
 
 ### Run the example
 
-    $ npm start
+    $ pnpm start
