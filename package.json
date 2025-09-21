@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@types/node": "^24.5.2",
-    "@vpmedia/bitcharify": "^1.16.0",
-    "@vpmedia/bitcharify-phaser2": "^1.7.0",
+    "@vpmedia/bitcharify": "^1.17.0",
+    "@vpmedia/bitcharify-phaser2": "^1.8.0",
     "@vpmedia/bitcharify-phaser3": "^1.7.0",
-    "@vpmedia/phaser": "^1.82.0",
+    "@vpmedia/phaser": "^1.83.0",
     "phaser": "^3.90.0"
   },
   "devDependencies": {
