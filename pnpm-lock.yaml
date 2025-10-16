@@ -21,8 +21,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
       '@vpmedia/phaser':
-        specifier: ^1.84.0
-        version: 1.84.0
+        specifier: ^1.85.0
+        version: 1.85.0
       phaser:
         specifier: ^3.90.0
         version: 3.90.0
@@ -636,11 +636,11 @@ packages:
   '@vpmedia/bitcharify@1.18.0':
     resolution: {integrity: sha512-ZJwTabbToudmqNglhcwDAknt+61HeLY5QSuLa4R82NHyf/zvq91Zsz8AhtUIozo3mOBH36AVkK9x4SYFhL6r+Q==}
 
-  '@vpmedia/phaser@1.84.0':
-    resolution: {integrity: sha512-EjbyB0kOJ0shBZYVN4L1JyTifmhfarW+duShFikUP7flPHOZnAmu1zsx8tLh9AklvVnJ1aILECUxz6ycZtwR5A==}
+  '@vpmedia/phaser@1.85.0':
+    resolution: {integrity: sha512-vAz1FlJREm9yN/JfsfPMFlxeF8l6FK6Jih8WP/8Gg62S5dl1Wyopr+rBumdG33FULvyW4AiibWKVL0XA5UM0eQ==}
 
-  '@vpmedia/simplify@1.39.0':
-    resolution: {integrity: sha512-Xsii5ig1Gqd0dFFIVv57JsuniLOgDKECT0ZSppX2grTrsKrhZ/BUy5Lem7oKZRiUdOQSQ5otxEdnNL1Sl8QMUQ==}
+  '@vpmedia/simplify@1.40.0':
+    resolution: {integrity: sha512-Iwq0d8pHFl+CH6/MsHpW7pMlh47GktAFs/GLvleYR2U7idYqG361d5Pwf2QxH7EG+VIOTggd6NhJUD0WEYECJw==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2286,7 +2286,7 @@ snapshots:
   '@vpmedia/bitcharify-phaser2@1.9.0':
     dependencies:
       '@types/node': 24.7.2
-      '@vpmedia/phaser': 1.84.0
+      '@vpmedia/phaser': 1.85.0
 
   '@vpmedia/bitcharify-phaser3@1.8.0':
     dependencies:
@@ -2296,13 +2296,13 @@ snapshots:
     dependencies:
       '@types/node': 24.7.2
 
-  '@vpmedia/phaser@1.84.0':
+  '@vpmedia/phaser@1.85.0':
     dependencies:
       '@types/node': 24.7.2
-      '@vpmedia/simplify': 1.39.0
+      '@vpmedia/simplify': 1.40.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.39.0':
+  '@vpmedia/simplify@1.40.0':
     dependencies:
       '@types/node': 24.7.2
       eventemitter3: 5.0.1
