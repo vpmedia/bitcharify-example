@@ -1,2 +1,9 @@
 onlyBuiltDependencies:
   - esbuild
+trustPolicy: no-downgrade
+minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - '@vpmedia/bitcharify'
+  - '@vpmedia/bitcharify-phaser2'
+  - '@vpmedia/bitcharify-phaser3'
+  - '@vpmedia/phaser'
