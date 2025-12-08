@@ -18,6 +18,7 @@ class MainScene extends Scene {
     document.body.appendChild(canvas);
     //
     const fontStyle = { fontFamily: 'Arial', fontSize: 24, fill: '#FFFFFF' };
+    // @ts-expect-error TS2345
     const fontData = generateBitmapFont(canvas, fontStyle);
     //
     loadImage(canvas.toDataURL()).then((event) => {

@@ -27,6 +27,7 @@ class GameState {
     document.body.appendChild(canvas);
     //
     const styles = [{ fontFamily: 'Arial', fontSize: 24, fill: '#FFFFFF' }];
+    // @ts-expect-error TS2345
     const results = generateBitmapFonts(canvas, styles);
     for (const result of results) {
       loadImage(result.imageData).then((event) => {
