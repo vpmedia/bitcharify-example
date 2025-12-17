@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@vpmedia/bitcharify':
-        specifier: ^1.19.0
-        version: 1.19.0
+        specifier: ^1.20.0
+        version: 1.20.0
       '@vpmedia/bitcharify-phaser2':
-        specifier: ^1.10.0
-        version: 1.10.0
+        specifier: ^1.11.0
+        version: 1.11.0
       '@vpmedia/bitcharify-phaser3':
         specifier: ^1.9.0
         version: 1.9.0
       '@vpmedia/phaser':
-        specifier: ^1.95.0
-        version: 1.95.0
+        specifier: ^1.96.0
+        version: 1.96.0
       phaser:
         specifier: ^3.90.0
         version: 3.90.0
@@ -840,20 +840,20 @@ packages:
   '@vitest/utils@4.0.16':
     resolution: {integrity: sha512-h8z9yYhV3e1LEfaQ3zdypIrnAg/9hguReGZoS7Gl0aBG5xgA410zBqECqmaF/+RkTggRsfnzc1XaAHA6bmUufA==}
 
-  '@vpmedia/bitcharify-phaser2@1.10.0':
-    resolution: {integrity: sha512-PscqpxpWLgJ8CPOqXdrZJ3uSThEJSMk35w6Qc6GpV+eh0NuJiqgZVAKBvidBrrgPI2cJaIiMFlv0XD60AoTuzw==}
+  '@vpmedia/bitcharify-phaser2@1.11.0':
+    resolution: {integrity: sha512-3hooXhgS4lyh08yKc+q1K52O1oJQF2HoXLAnR+3UR65M11QU+swe1EFMSvfC3jyfVfIWtt6oIbeEUGUCdJ3B1Q==}
 
   '@vpmedia/bitcharify-phaser3@1.9.0':
     resolution: {integrity: sha512-xGIWvThD17HXD9MNnjQ/h5nnN60lC/bBUSfXfv7aJfwWuNSbeqmGiMpeLaMEnBVWWlpZ0ktEmIKVlZjWCPiFOQ==}
 
-  '@vpmedia/bitcharify@1.19.0':
-    resolution: {integrity: sha512-tnEWt8iEx1ke/w0zGE/n42io2RhrvposAhEmb9P0yZ0nWpNJU/JvlNWBY9nqUI/zS2j2KUAPGCbkD83F7ySNeg==}
+  '@vpmedia/bitcharify@1.20.0':
+    resolution: {integrity: sha512-QOp36Y8TVDouwqgY8jm9Drj6ZXU7JTNJYmV38eYN7Y2bpGhqZsd1iL+m8VU7iu+iN6TlK4nkivEDsxF2p4jhgQ==}
 
-  '@vpmedia/phaser@1.95.0':
-    resolution: {integrity: sha512-o0uYFnsrEtd+/G2rDoGhHctcBEbqAFjxZwSzoKPdnNb6CcCkOKM/fGXAW3aq8uxwjbf9J52t6VzAOC9JcFLy4Q==}
+  '@vpmedia/phaser@1.96.0':
+    resolution: {integrity: sha512-3MRSw0EvaoNR1kci2R8zymnhqKuxrNqdO8k/mpV5hWsS69nFnrnlJd1NBTgxwx5WgfyQnSGQi5YVxRojUDtpZw==}
 
-  '@vpmedia/simplify@1.52.0':
-    resolution: {integrity: sha512-ecPwNs3nWejvjjX20IupWEzwY/pNROZfKEAQClmchbgwpyu6Iev2Oc1ohJNSddNny3Qm/MGEJSJCKYXmCZR/4g==}
+  '@vpmedia/simplify@1.53.0':
+    resolution: {integrity: sha512-7VhCtfDk8ndWH21NqQSPK88LD69oV9LjfsnaIPwlKtvoX0VkdDYzaQdDucHug14O7mmYp9qatjkWXLJMOuZefQ==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -2824,24 +2824,24 @@ snapshots:
       '@vitest/pretty-format': 4.0.16
       tinyrainbow: 3.0.3
 
-  '@vpmedia/bitcharify-phaser2@1.10.0':
+  '@vpmedia/bitcharify-phaser2@1.11.0':
     dependencies:
-      '@vpmedia/phaser': 1.95.0
+      '@vpmedia/phaser': 1.96.0
 
   '@vpmedia/bitcharify-phaser3@1.9.0':
     dependencies:
       '@types/node': 24.10.4
 
-  '@vpmedia/bitcharify@1.19.0':
+  '@vpmedia/bitcharify@1.20.0':
     dependencies:
-      '@types/node': 24.10.4
+      '@types/node': 25.0.3
 
-  '@vpmedia/phaser@1.95.0':
+  '@vpmedia/phaser@1.96.0':
     dependencies:
-      '@vpmedia/simplify': 1.52.0
+      '@vpmedia/simplify': 1.53.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.52.0':
+  '@vpmedia/simplify@1.53.0':
     dependencies:
       eventemitter3: 5.0.1
     optionalDependencies:
