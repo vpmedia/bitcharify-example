@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vpmedia/bitcharify':
-        specifier: ^1.21.0
-        version: 1.21.0
+        specifier: ^1.22.0
+        version: 1.22.0
       '@vpmedia/bitcharify-phaser2':
         specifier: ^1.11.0
         version: 1.11.0
@@ -18,8 +18,8 @@ importers:
         specifier: ^1.9.0
         version: 1.9.0
       '@vpmedia/phaser':
-        specifier: ^1.97.0
-        version: 1.97.0
+        specifier: ^1.98.0
+        version: 1.98.0
       phaser:
         specifier: ^3.90.0
         version: 3.90.0
@@ -961,14 +961,14 @@ packages:
   '@vpmedia/bitcharify-phaser3@1.9.0':
     resolution: {integrity: sha512-xGIWvThD17HXD9MNnjQ/h5nnN60lC/bBUSfXfv7aJfwWuNSbeqmGiMpeLaMEnBVWWlpZ0ktEmIKVlZjWCPiFOQ==}
 
-  '@vpmedia/bitcharify@1.21.0':
-    resolution: {integrity: sha512-mvtfz3py0ErxjI2J3zf3+/IzoYzYCOwUYfK5EYqPKxtceSZB20XgYBb9Le8akfp5QgoJkQ83+X2xUau/MiN71w==}
+  '@vpmedia/bitcharify@1.22.0':
+    resolution: {integrity: sha512-P/cp1Zz9/Upw2TAXjhHm+9mn/WbV6G/IZSzcwoxPJM/e6C0CaPuScsBr9M40xL4RdS1KwBgIM61UsD057CjwbQ==}
 
-  '@vpmedia/phaser@1.97.0':
-    resolution: {integrity: sha512-9XLN9PbRIlfiQkQM/4Yuxet+EV5IkR6JTK6kFEk7DZj1L7vN7k9MqXATNaDbGELJfGqZqwEfAHfm2VX5SC+cTw==}
+  '@vpmedia/phaser@1.98.0':
+    resolution: {integrity: sha512-PWJG/fJ00U2AlQfHISJTO/kEe82HTybTYaZvmWGxxqX3KilqJSUXLVevdSX7Kl2WVCXV/eoI+wszwCTu45r8GA==}
 
-  '@vpmedia/simplify@1.53.0':
-    resolution: {integrity: sha512-7VhCtfDk8ndWH21NqQSPK88LD69oV9LjfsnaIPwlKtvoX0VkdDYzaQdDucHug14O7mmYp9qatjkWXLJMOuZefQ==}
+  '@vpmedia/simplify@1.54.0':
+    resolution: {integrity: sha512-si+xDGlg55IbUtOVbPBnq+e6nQUtthhDB0m8E/qICyP8nVB1zfB/6k99P+QTJCyGiiPbsvMESnuz16N44n1EWg==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -3133,22 +3133,22 @@ snapshots:
 
   '@vpmedia/bitcharify-phaser2@1.11.0':
     dependencies:
-      '@vpmedia/phaser': 1.97.0
+      '@vpmedia/phaser': 1.98.0
 
   '@vpmedia/bitcharify-phaser3@1.9.0':
     dependencies:
       '@types/node': 24.10.4
 
-  '@vpmedia/bitcharify@1.21.0':
+  '@vpmedia/bitcharify@1.22.0':
     dependencies:
       '@types/node': 25.0.3
 
-  '@vpmedia/phaser@1.97.0':
+  '@vpmedia/phaser@1.98.0':
     dependencies:
-      '@vpmedia/simplify': 1.53.0
+      '@vpmedia/simplify': 1.54.0
       uuid: 13.0.0
 
-  '@vpmedia/simplify@1.53.0':
+  '@vpmedia/simplify@1.54.0':
     dependencies:
       eventemitter3: 5.0.1
     optionalDependencies:
