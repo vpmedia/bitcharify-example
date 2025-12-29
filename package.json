@@ -26,10 +26,10 @@
     "test": "vitest --coverage --pass-with-no-tests"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.20.0",
+    "@vpmedia/bitcharify": "^1.21.0",
     "@vpmedia/bitcharify-phaser2": "^1.11.0",
     "@vpmedia/bitcharify-phaser3": "^1.9.0",
-    "@vpmedia/phaser": "^1.96.0",
+    "@vpmedia/phaser": "^1.97.0",
     "phaser": "^3.90.0"
   },
   "devDependencies": {
