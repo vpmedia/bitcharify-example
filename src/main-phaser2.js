@@ -49,7 +49,8 @@ const config = {
   roundPixels: true,
 };
 
+// @ts-expect-error
 const game = new Game(config);
 game.state.add('Game', GameState);
 game.state.start('Game');
-window.game = game;
+globalThis.game = game;

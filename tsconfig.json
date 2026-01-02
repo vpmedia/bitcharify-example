@@ -18,6 +18,5 @@
     "strictNullChecks": false,
     "skipLibCheck": true
   },
-  "include": ["*.js", "./src/**/*", "./types/**/*"],
-  "exclude": ["./src/**/*.test.js"]
+  "include": ["*.js", "./src/**/*", "./types/**/*"]
 }
