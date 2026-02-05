@@ -27,10 +27,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.22.0",
-    "@vpmedia/bitcharify-phaser2": "^1.11.0",
-    "@vpmedia/bitcharify-phaser3": "^1.9.0",
-    "@vpmedia/phaser": "^1.100.0",
+    "@vpmedia/bitcharify": "^1.23.0",
+    "@vpmedia/bitcharify-phaser2": "^1.12.0",
+    "@vpmedia/bitcharify-phaser3": "^1.10.0",
+    "@vpmedia/phaser": "^1.101.0",
     "phaser": "^3.90.0"
   },
   "devDependencies": {
@@ -40,7 +40,7 @@
     "@types/node": "^25.2.0",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",
-    "eslint-plugin-jsdoc": "^62.5.1",
+    "eslint-plugin-jsdoc": "^62.5.2",
     "eslint-plugin-oxlint": "^1.43.0",
     "eslint-plugin-unicorn": "^62.0.0",
     "globals": "^17.3.0",
