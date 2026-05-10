@@ -4,18 +4,8 @@ import { Const, Game } from '@vpmedia/phaser';
 import './style.css';
 
 class GameState {
-  /**
-   * TBD.
-   */
-  constructor() {
-    /**
-     * @type {Game} - TBD.
-     */
-    this.game = null;
-  }
-  /**
-   * Create game objects.
-   */
+  game: Game = null;
+
   create() {
     const testText = 'ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz';
     const textStyle = { font: 'Arial', fontSize: 24, fill: '#FFFFFF' };

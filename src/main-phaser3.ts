@@ -4,9 +4,6 @@ import { Game, Scene } from 'phaser';
 import './style.css';
 
 class MainScene extends Scene {
-  /**
-   * TBD.
-   */
   create() {
     const testText = 'ABCDEFGHIJKLMNOPQRSTUVXYZ01234567890abcdefghijklmnoprstuxyz';
     const textStyle = { fontFamily: 'Arial', fontSize: 24, fill: '#FFFFFF' };
