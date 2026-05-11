@@ -9,3 +9,4 @@ minimumReleaseAgeExclude:
   - '@vpmedia/bitcharify-phaser2'
   - '@vpmedia/bitcharify-phaser3'
   - '@vpmedia/phaser'
+blockExoticSubdeps: true
