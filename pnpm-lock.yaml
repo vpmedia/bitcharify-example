@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       '@vpmedia/bitcharify':
-        specifier: ^1.23.0
-        version: 1.23.0
+        specifier: ^1.25.0
+        version: 1.25.0
       '@vpmedia/bitcharify-phaser2':
+        specifier: ^1.14.0
+        version: 1.14.0
+      '@vpmedia/bitcharify-phaser3':
         specifier: ^1.12.0
         version: 1.12.0
-      '@vpmedia/bitcharify-phaser3':
-        specifier: ^1.10.0
-        version: 1.10.0
       '@vpmedia/phaser':
-        specifier: ^1.102.0
-        version: 1.102.0
+        specifier: ^1.103.0
+        version: 1.103.0
       phaser:
         specifier: ^3.90.0
         version: 3.90.0
@@ -874,20 +874,20 @@ packages:
   '@vitest/utils@4.1.5':
     resolution: {integrity: sha512-76wdkrmfXfqGjueGgnb45ITPyUi1ycZ4IHgC2bhPDUfWHklY/q3MdLOAB+TF1e6xfl8NxNY0ZYaPCFNWSsw3Ug==}
 
-  '@vpmedia/bitcharify-phaser2@1.12.0':
-    resolution: {integrity: sha512-qb2Z+7TSHxyCygn7dB5ix5U2t0sNPnhpmya7ukMhDDzckHPEIZGqZLdqZIx6JRaf30aVNb9MhQZ7+Xqw8wBKMw==}
+  '@vpmedia/bitcharify-phaser2@1.14.0':
+    resolution: {integrity: sha512-IF1xfnVZRrDCdba8sZUp7FbuVrnLGjlPGHJ8sosHaLv2Jj7kKiL9AN1PjH2wEavkaG8hhxYaWVNuhq94LTWa1w==}
 
-  '@vpmedia/bitcharify-phaser3@1.10.0':
-    resolution: {integrity: sha512-05BNAwBKLMQrwboWUfqAk3O557Li370VS6bAPV6rhzR12ruHx7P18s80zzGIgeJp8XBvnWnV9BvstMF82LxafQ==}
+  '@vpmedia/bitcharify-phaser3@1.12.0':
+    resolution: {integrity: sha512-7W36jY6g2bSYufhojNxs0NwIj4x2nKAvXcEd1bOwPbF5dczssJuTH8+zj9lPJQyz4GAn2m9HnULIgH3PNUIc0Q==}
 
-  '@vpmedia/bitcharify@1.23.0':
-    resolution: {integrity: sha512-fLOflUcpCEIsXKxn5UP8mKebmoqwwx9mLFaYIniy63bxsPhrzs2zzfgqbzaEnYyWkKQAD8r/26gDR0zizsz/Ng==}
+  '@vpmedia/bitcharify@1.25.0':
+    resolution: {integrity: sha512-gZgyamuRz/j0IUOh81DsA7OLehDbi+076AfbrTCtTVHGWo5dPyEmdcup5Iis00w8y8MF5bbsWAsCVbdJmSu9mQ==}
 
-  '@vpmedia/phaser@1.102.0':
-    resolution: {integrity: sha512-NTtMDICf7z7Vb8j4LU314TjtRkbqNNPNinJ0WD8J/trucRymbDNnJ6xERU3TyYyl066m8sy+sXXpxxGiHXLCtg==}
+  '@vpmedia/phaser@1.103.0':
+    resolution: {integrity: sha512-UzdwHRG3QFzExwBkgt1IDUP4Ouze+95UWrZsUnnmHA8c6CKASouLp2eJAFGSfp5tzV956UBE9zfjZt9eCRd9/g==}
 
-  '@vpmedia/simplify@1.74.0':
-    resolution: {integrity: sha512-9T6wvZUF0kWH2FaVgLc25Js8R2dE7hm/ukaKmt88j642wXQuLuNqbgU0/1fv/5+chhupyvgJW+ZwipcpnBf4wQ==}
+  '@vpmedia/simplify@1.76.0':
+    resolution: {integrity: sha512-SZPT7EsZiFHdjNi+qZpaWrgUc6MINefZoFAh+1QowYerzzpNb8tJCg3TCODA/bZ23MjYq54Qb/w2pf82FKjluA==}
 
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
@@ -2124,22 +2124,22 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.0
 
-  '@vpmedia/bitcharify-phaser2@1.12.0':
+  '@vpmedia/bitcharify-phaser2@1.14.0':
     dependencies:
-      '@vpmedia/phaser': 1.102.0
+      '@vpmedia/phaser': 1.103.0
 
-  '@vpmedia/bitcharify-phaser3@1.10.0': {}
+  '@vpmedia/bitcharify-phaser3@1.12.0': {}
 
-  '@vpmedia/bitcharify@1.23.0':
+  '@vpmedia/bitcharify@1.25.0':
     dependencies:
       '@types/node': 25.6.2
 
-  '@vpmedia/phaser@1.102.0':
+  '@vpmedia/phaser@1.103.0':
     dependencies:
-      '@vpmedia/simplify': 1.74.0
+      '@vpmedia/simplify': 1.76.0
       uuid: 14.0.0
 
-  '@vpmedia/simplify@1.74.0':
+  '@vpmedia/simplify@1.76.0':
     optionalDependencies:
       '@sentry/browser': 10.52.0
 

@@ -26,10 +26,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@vpmedia/bitcharify": "^1.23.0",
-    "@vpmedia/bitcharify-phaser2": "^1.12.0",
-    "@vpmedia/bitcharify-phaser3": "^1.10.0",
-    "@vpmedia/phaser": "^1.102.0",
+    "@vpmedia/bitcharify": "^1.25.0",
+    "@vpmedia/bitcharify-phaser2": "^1.14.0",
+    "@vpmedia/bitcharify-phaser3": "^1.12.0",
+    "@vpmedia/phaser": "^1.103.0",
     "phaser": "^3.90.0"
   },
   "devDependencies": {
