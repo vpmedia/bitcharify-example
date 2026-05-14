@@ -13,7 +13,7 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 - **Libs:** `@vpmedia/bitcharify`, `@vpmedia/bitcharify-phaser2`, `@vpmedia/bitcharify-phaser3`
 - **Build/Dev Server:** Vite
 - **Asset Pipeline:** `@vpmedia/phixify`
-- **Testing:** Vitest, @vitest/coverage-v8, jsdom
+- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
 - **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
 - **Type Checking:** TypeScript
 - **Tooling:** lefthook (git hooks), commitlint (conventional commits)
@@ -23,6 +23,7 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 - Lefthook: https://lefthook.dev/llms.txt
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
 - Phaser 3: https://context7.com/phaserjs/phaser/llms.txt
+- TypeScript: https://context7.com/websites/typescriptlang/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
