@@ -23,7 +23,6 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 - Lefthook: https://lefthook.dev/llms.txt
 - OXC (oxlint, oxfmt): https://oxc.rs/llms.txt
 - Phaser 3: https://context7.com/phaserjs/phaser/llms.txt
-- TypeScript: https://www.typescriptlang.org/llms.txt
 - Vite: https://vite.dev/llms.txt
 - Vitest: https://vitest.dev/llms.txt
 
