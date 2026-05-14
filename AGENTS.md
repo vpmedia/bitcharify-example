@@ -9,7 +9,6 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 - **Language:** TypeScript (ESM)
 - **Runtime:** Node.js / Browser
 - **Package Manager:** pnpm (workspaces)
-- **Domain:** Example app for `@vpmedia/bitcharify` (Phaser 2 + Phaser 3 demos)
 - **Game Engines:** `@vpmedia/phaser` (Phaser 2 port), `phaser` v3
 - **Libs:** `@vpmedia/bitcharify`, `@vpmedia/bitcharify-phaser2`, `@vpmedia/bitcharify-phaser3`
 - **Build/Dev Server:** Vite
@@ -50,9 +49,9 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 
 ## Conventions
 
-- **Commits:** Conventional Commits with custom rules (header ≤ 100, body line ≤ 100, no sentence/start/pascal/upper-case subjects)
+- **Commits:** Conventional Commits (`@commitlint/config-conventional`)
 - **Modules:** ESM only
-- **Style:** Enforced by oxlint + oxfmt
+- **Style:** Enforced by oxlint + oxfmt — do not hand-format
 
 ## Testing
 
