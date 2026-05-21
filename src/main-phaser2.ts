@@ -21,7 +21,7 @@ class GameState {
     const results = generateBitmapFonts(canvas, styles);
     for (const result of results) {
       loadImage(result.imageData).then((event) => {
-        addToCache(this.game, 'Arial_24px', result.fontData, event.target);
+        addToCache(this.game, 'Arial_24px', result.fontData, event.target as HTMLCanvasElement);
         this.game.add.bitmapText(10, 370, 'Arial_24px', testText, 24);
         // canvas.width = 1;
         // canvas.height = 1;
@@ -39,7 +39,6 @@ const config = {
   roundPixels: true,
 };
 
-// @ts-expect-error
 const game = new Game(config);
 game.state.add('Game', GameState);
 game.state.start('Game');

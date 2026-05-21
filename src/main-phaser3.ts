@@ -19,7 +19,7 @@ class MainScene extends Scene {
     const fontData = generateBitmapFont(canvas, fontStyle);
     //
     loadImage(canvas.toDataURL()).then((event) => {
-      addToCache(this.game, 'Arial_24px', fontData, event.target);
+      addToCache(this.game, 'Arial_24px', fontData, event.target as HTMLImageElement);
       this.add.bitmapText(10, 370, 'Arial_24px', testText, 24);
       // canvas.width = 1;
       // canvas.height = 1;
