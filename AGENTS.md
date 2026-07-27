@@ -6,17 +6,7 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 
 ## Tech Stack
 
-- **Language:** TypeScript (ESM)
-- **Runtime:** Node.js / Browser
-- **Package Manager:** pnpm (workspaces)
-- **Game Engines:** `@vpmedia/phaser` (Phaser 2 port), `phaser` v3
-- **Libs:** `@vpmedia/bitcharify`, `@vpmedia/bitcharify-phaser2`, `@vpmedia/bitcharify-phaser3`
-- **Build/Dev Server:** Vite
-- **Asset Pipeline:** `@vpmedia/phixify`
-- **Testing:** Vitest, @vitest/coverage-v8, happy-dom
-- **Lint/Format:** oxlint (+ `oxlint-tsgolint`), oxfmt
-- **Type Checking:** TypeScript
-- **Tooling:** lefthook (git hooks), commitlint (conventional commits)
+Read [package.json](package.json) for the language, runtime, dependencies and tooling.
 
 ## Documentation
 
@@ -37,15 +27,6 @@ Example application for the `@vpmedia/bitcharify` package, demonstrating bitmap 
 - **Test:** `pnpm test`
 - **Lint / Format / Typecheck:** `pnpm lint` / `pnpm format` / `pnpm typecheck`
 - **All checks:** `pnpm check`
-
-## Project Structure
-
-- `src/index.html` — entry HTML
-- `src/main-phaser2.ts` — Phaser 2 demo entry
-- `src/main-phaser3.ts` — Phaser 3 demo entry
-- `src/style.css` — styles
-- `types/` — local type augmentations
-- `dist/` — Vite build output (gitignored)
 
 ## Conventions
 
