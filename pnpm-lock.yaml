@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vpmedia/bitcharify':
-        specifier: ^1.28.0
-        version: 1.28.0
+        specifier: ^1.29.0
+        version: 1.29.0
       '@vpmedia/bitcharify-phaser2':
         specifier: ^1.15.0
         version: 1.15.0
@@ -990,8 +990,8 @@ packages:
   '@vpmedia/bitcharify-phaser3@1.12.0':
     resolution: {integrity: sha512-7W36jY6g2bSYufhojNxs0NwIj4x2nKAvXcEd1bOwPbF5dczssJuTH8+zj9lPJQyz4GAn2m9HnULIgH3PNUIc0Q==}
 
-  '@vpmedia/bitcharify@1.28.0':
-    resolution: {integrity: sha512-Deq+6qRtaruvw87T81DNxYZQo/o67NXe+M97fCgc0UhLvZcCRmZMSikY1AeJKp0RrDuaq6JbeI5yNm5i2cLlfA==}
+  '@vpmedia/bitcharify@1.29.0':
+    resolution: {integrity: sha512-oCW6N2Jug0X08+hITozflhM6fMkMiCGxoqN1V/Fwf7MRBm5yW4PrLax2/7OzoBvsoaaUcuuYGGGSiLZWxG3whQ==}
 
   '@vpmedia/phaser@1.112.0':
     resolution: {integrity: sha512-lwMIslGHRS09deNAUeRmFni1awcEQEBX0e3EIcBjMjjTDEPtTO1o6W9ZtTdyn3EKWn3QFUOB+GCIA5ppNod1uA==}
@@ -2264,7 +2264,7 @@ snapshots:
 
   '@vpmedia/bitcharify-phaser3@1.12.0': {}
 
-  '@vpmedia/bitcharify@1.28.0': {}
+  '@vpmedia/bitcharify@1.29.0': {}
 
   '@vpmedia/phaser@1.112.0':
     dependencies:
